@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-image: url('src/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    color: silver;
+}
+body p{
+    font-size: 80px;
+    color: gold;
+}
+.buttonY{
+    background-color: #4CAF50;
+    padding: 20px 40px;
+    margin: 150px;
+    font-size: 20px;
+}
+.buttonN{
+    background-color: #f44336;
+    padding: 20px 40px;
+    margin: 150px;
+    font-size: 20px;
+}
+#coges{
+    font-size: 15px;
+}

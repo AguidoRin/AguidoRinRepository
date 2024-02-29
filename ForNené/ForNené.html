@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You Babe</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1><strong>FELIZ MESIVERSARIO <br> NENÉ</strong></h1>
+    <p>¡¡10 Meses juntos!!</p>
+    <p>I Love U</p>
+    <img src="src/NenéHeart1." width="700px">
+    <br><br>
+    <button class="buttonY"><a href="felicidades.html">Sí</a></button>
+    <button id="buttonNo" class="buttonN">No</button>
+    <script>
+        document.getElementById("buttonNo").addEventListener("click", function() {
+            var buttonNo = document.getElementById("buttonNo");
+            buttonNo.style.display = "none"; // Oculta el botón "No"
+            var newLocation = document.getElementById("newLocation");
+            newLocation.appendChild(buttonNo); // Mueve el botón "No" a otro elemento con el id "newLocation"
+});
+    </script>
+</body>
+</html>
